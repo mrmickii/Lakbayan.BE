@@ -1,0 +1,61 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored if using package restore
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Logs
+*.log
+
+# Test results
+TestResults/
+*.trx
+
+# Entity Framework Migrations snapshot
+*Migrations/*.Designer.cs
+
+# Backup & cache
+*.bak
+*.cache
+
+# Local configuration
+appsettings.*.json
+secrets.json
+
+# Publish output
+publish/
+
+# Others
+*.db
+*.sqlite
+*.mdf
+*.ldf
